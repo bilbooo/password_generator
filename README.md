@@ -12,8 +12,6 @@ Apri un terminale e lancia:
 git clone https://github.com/bilbooo/password_generator.git
 ```
 
-Questo comando scarica una copia di tutti i file del progetto in una nuova cartella chiamata `password_generator`.
-
 ### 2. Entra nella cartella
 
 ```bash
