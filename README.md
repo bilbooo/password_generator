@@ -18,8 +18,6 @@ git clone https://github.com/bilbooo/password_generator.git
 cd password_generator
 ```
 
-Da qui in poi tutti i comandi vanno lanciati da dentro questa cartella.
-
 ### 3. Compila il programma
 
 ```bash
