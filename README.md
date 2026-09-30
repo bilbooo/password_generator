@@ -2,7 +2,7 @@
 
 Piccolo programma in C che genera una password casuale (lettere minuscole, maiuscole, cifre e caratteri speciali) in base alla lunghezza scelta.
 
-## Come iniziare
+## Come usare
 
 ### 1. Clona il repository
 
