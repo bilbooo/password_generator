@@ -19,15 +19,18 @@
 
 char *generator(size_t length) {
     
-    if (length == 0 || length > MAX_PASS_LENGTH) {
-        fprintf(stderr, "Chosen length is too big. Try something shorter.\n");
+    if (length == 0) {
+        fprintf(stderr, "Error: password cannot have length equals to 0.\n");
+        return NULL;
+    }
+    if (length > MAX_PASS_LENGTH) {
+        fprintf(stderr, "Error: chosen length is too big. Try something shorter.\n");
         return NULL;
     }
 
     char *password = malloc((length + 1) * sizeof(char));
-
     if (password == NULL) {
-        fprintf(stderr, "Error, failed memory allocation. The program terminates here.\n");
+        fprintf(stderr, "Error: failed memory allocation. The program terminates here.\n");
         return NULL;
     }
 
@@ -60,9 +63,9 @@ int main(void) {
 
     if (generated_password != NULL) {
         printf("Password generata: %s\n", generated_password);
-
         free(generated_password);
+        return 0;
     }
 
-    return 0;
+    return 1;
 }

@@ -2,6 +2,12 @@
 
 Piccolo programma in C che genera una password casuale (lettere minuscole, maiuscole, cifre e caratteri speciali) in base alla lunghezza scelta.
 
+## Disclaimer
+
+Questo programma non è da intendersi come generatore di password casuali serio.
+Ho scelto appositamente un "algoritmo" per generare le password basilare per non aumentare la difficoltà nella scrittura del codice,
+che già era tanta ;(.
+
 ## Come usare
 
 ### 1. Clona il repository
